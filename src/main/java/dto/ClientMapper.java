@@ -8,7 +8,9 @@ public class ClientMapper {
         c.setName(dto.getName());
         c.setPhone(dto.getPhone());
         c.setEmail(dto.getEmail());
+        System.out.println("National Id 2: " + dto.getNationalId());
         c.setNationalId(dto.getNationalId());
+        System.out.println("National Id3: " + c.getNationalId());
         return c;
     }
 
